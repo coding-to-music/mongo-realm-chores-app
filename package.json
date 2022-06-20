@@ -1,5 +1,5 @@
 {
-  "name": "chores-manager-app",
+  "name": "mongo-realm-chores-app",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -7,7 +7,12 @@
     "ios": "react-native run-ios",
     "start": "react-native start --reset-cache",
     "test": "jest",
-    "lint": "eslint . --fix"
+    "lint": "eslint . --fix",
+    "vercel": "npm run deploy && cd website && vercel --prod",
+    "mongohost": "npm run deploy && npm run build && cp -a ./build/ ./hosting/files && realm-cli push --remote=tasktracker-bmumi --include-hosting",
+    "deploy": "git add . && git commit -m Build && git push",
+    "realm:init": "npm run deploy && cd ./realm-backend && realm-cli app init",
+    "deploy:backend": "npm run deploy && cd ./realm-backend && realm-cli push"
   },
   "dependencies": {
     "@apollo/client": "^3.3.7",

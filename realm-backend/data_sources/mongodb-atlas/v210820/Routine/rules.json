@@ -1,0 +1,32 @@
+{
+    "collection": "Routine",
+    "database": "v210820",
+    "roles": [
+        {
+            "name": "default",
+            "apply_when": {},
+            "fields": {
+                "areas": {},
+                "chores": {},
+                "createdAt": {},
+                "days": {},
+                "deleteAt": {},
+                "endDate": {},
+                "endTime": {},
+                "frequency": {},
+                "id": {},
+                "isPrivate": {},
+                "note": {},
+                "owners": {},
+                "startDate": {},
+                "startTime": {},
+                "updatedAt": {}
+            },
+            "read": true,
+            "insert": true,
+            "delete": true,
+            "search": true,
+            "additional_fields": {}
+        }
+    ]
+}

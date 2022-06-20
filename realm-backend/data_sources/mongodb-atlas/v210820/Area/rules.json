@@ -1,0 +1,29 @@
+{
+    "collection": "Area",
+    "database": "v210820",
+    "roles": [
+        {
+            "name": "default",
+            "apply_when": {},
+            "fields": {
+                "chores": {},
+                "color": {},
+                "createdAt": {},
+                "createdBy": {},
+                "deleteAt": {},
+                "iconUrl": {},
+                "id": {},
+                "imageUrl": {},
+                "isDefault": {},
+                "name": {},
+                "note": {},
+                "updatedAt": {}
+            },
+            "read": true,
+            "insert": true,
+            "delete": true,
+            "search": true,
+            "additional_fields": {}
+        }
+    ]
+}

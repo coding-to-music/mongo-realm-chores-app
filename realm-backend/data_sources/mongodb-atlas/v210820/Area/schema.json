@@ -1,0 +1,52 @@
+{
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "chores": {
+            "bsonType": "array",
+            "items": [
+                {
+                    "bsonType": "objectId"
+                }
+            ]
+        },
+        "color": {
+            "bsonType": "string",
+            "pattern": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$"
+        },
+        "createdAt": {
+            "bsonType": "date"
+        },
+        "createdBy": {
+            "bsonType": "objectId"
+        },
+        "deletedAt": {
+            "bsonType": "date"
+        },
+        "iconUrl": {
+            "bsonType": "string"
+        },
+        "imageUrl": {
+            "bsonType": "string"
+        },
+        "isDefault": {
+            "bsonType": "bool"
+        },
+        "name": {
+            "bsonType": "string"
+        },
+        "note": {
+            "bsonType": "string"
+        },
+        "updatedAt": {
+            "bsonType": "date"
+        }
+    },
+    "required": [
+        "_id",
+        "name",
+        "color"
+    ],
+    "title": "Area"
+}

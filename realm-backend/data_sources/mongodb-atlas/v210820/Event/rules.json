@@ -1,0 +1,30 @@
+{
+    "collection": "Event",
+    "database": "v210820",
+    "roles": [
+        {
+            "name": "default",
+            "apply_when": {},
+            "fields": {
+                "area": {},
+                "chore": {},
+                "createdAt": {},
+                "deleteAt": {},
+                "duration": {},
+                "id": {},
+                "isCompleted": {},
+                "isPrivate": {},
+                "note": {},
+                "owner": {},
+                "routine": {},
+                "timestamp": {},
+                "updatedAt": {}
+            },
+            "read": true,
+            "insert": true,
+            "delete": true,
+            "search": true,
+            "additional_fields": {}
+        }
+    ]
+}

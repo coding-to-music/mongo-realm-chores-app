@@ -1,0 +1,24 @@
+{
+    "collection": "User",
+    "database": "v210820",
+    "roles": [
+        {
+            "name": "default",
+            "apply_when": {},
+            "fields": {
+                "createdAt": {},
+                "deleteAt": {},
+                "id": {},
+                "imageUrl": {},
+                "token": {},
+                "updatedAt": {},
+                "username": {}
+            },
+            "read": true,
+            "insert": true,
+            "delete": true,
+            "search": true,
+            "additional_fields": {}
+        }
+    ]
+}

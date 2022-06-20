@@ -1,0 +1,29 @@
+{
+    "collection": "Role",
+    "database": "v210820",
+    "roles": [
+        {
+            "name": "default",
+            "apply_when": {},
+            "fields": {
+                "create_routine": {},
+                "createdAt": {},
+                "deleteAt": {},
+                "delete_house": {},
+                "delete_routine": {},
+                "edit_house": {},
+                "edit_routine": {},
+                "id": {},
+                "invite_roommate": {},
+                "kick_roommate": {},
+                "name": {},
+                "updatedAt": {}
+            },
+            "read": true,
+            "insert": true,
+            "delete": true,
+            "search": true,
+            "additional_fields": {}
+        }
+    ]
+}
